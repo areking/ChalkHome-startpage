@@ -1,7 +1,7 @@
 
 	.preload-images {
-		background: url("../img/napoli50%noborder.jpg") no-repeat center fixed -9999px -9999px;
-		background: url("../img/napoli50%noborder.jpg") no-repeat center fixed -9999px -9999px,
+		background: url("../img/napoli.jpg") no-repeat center fixed -9999px -9999px;
+		background: url("../img/napoli.jpg") no-repeat center fixed -9999px -9999px,
 				url("../img/blackChalkboard.jpg") no-repeat center fixed -9999px -9999px,
 				url("../img/greenChalkboard.jpg") no-repeat center fixed -9999px -9999px;
 	}
