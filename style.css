@@ -1,0 +1,416 @@
+
+	.preload-images {
+		background: url("../img/napoli50%noborder.jpg") no-repeat center fixed -9999px -9999px;
+		background: url("../img/napoli50%noborder.jpg") no-repeat center fixed -9999px -9999px,
+				url("../img/blackChalkboard.jpg") no-repeat center fixed -9999px -9999px,
+				url("../img/greenChalkboard.jpg") no-repeat center fixed -9999px -9999px;
+	}
+
+	html, body, main {
+		display: inline-block;
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+	}
+
+	#BG {
+		position: fixed;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		height: 100%;
+		margin: 0;
+		padding:0;
+		text-align: center;
+		background: url("../img/blackChalkboard.jpg") no-repeat center fixed;
+		background-size: cover;
+		z-index: -999;
+		display: inline-block;
+		transition: 1s;
+	}
+
+	#container {
+		height: 100vh;
+	}
+
+
+/* CLOCK */
+		
+	#clock {
+		display: inline-block;
+		text-align: center;
+		margin-top: 40px;
+		cursor: default;
+	}
+	#datebox {
+		margin-bottom: 20px;
+		text-transform: uppercase;
+	}
+
+
+/* FIRST PAGE */
+
+	#firstPage {
+		display: inline-block;
+		position: absolute;
+		left: 0;
+		right: 0;
+		transition: 1s
+	}
+
+
+/* MESSAGE */
+
+	#message {
+		display: inline;
+		text-align: center;
+		font-size: 30px;
+		margin-bottom: 10px;
+		cursor: default;
+		width: 50%;
+	}
+	#textMessage, #icoMessage {
+		display: inline-block;	
+	}
+	#ico1, #ico2, #ico3, #ico4, #ico5, #ico6 , #ico7, #ico8 {
+		display: inline;
+	}
+
+
+/* INPUT */
+
+	#inputDiv {
+		display: inline-block;
+		width: 80%;
+		max-width: 600px;
+		height: 40px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		background-color: rgba(0,0,0,0.1);
+	}
+	#inputBox {
+		text-align: center;
+		width: 98%;
+		max-width: 580px;
+		height: 45px;
+		background-color: transparent;
+		border: none;
+		outline: none;
+	}
+
+	.placeh::-moz-placeholder { /* Firefox 19+ */
+		color: #686868;
+	}
+	.placeh::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+		color: #686868;
+	}
+	.placeh:-ms-input-placeholder { /* IE 10+ */
+		color: #686868;
+	}
+	.placeh:-moz-placeholder { /* Firefox 18- */
+		color: #686868;
+	}
+	
+
+/* MENU */
+
+	#menu {
+		display: inline-block;
+		text-align: center;
+	}
+	#col1, #col2, #col3, #col4, #col5, #col6 {
+		display: inline-block;
+		margin: 10px;
+		vertical-align: top;
+	}
+	#header1, #header2, #header3, #header4, #header5, #header6 {
+		margin-bottom: 10px;
+		width: 100%;
+		cursor: default;
+	}
+	#menu li, a {
+		list-style: none;
+		text-decoration: none;
+		text-align: center;
+	}
+
+
+/* FOOTER */
+
+	#footer {
+		display: none;
+		text-align: center;
+		width: 80%;
+		max-width: 500px;
+		margin-top: 100px;
+	}
+	
+	.listOther {
+		display: inline-block;
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+
+	
+/* HELP */
+	
+	#help {
+		display: none;
+		cursor: default;
+	}
+	
+	#col1help, #col2help, #col3help, #col4help , #col5help, #col6help, #block1, #block2, #block3 {
+		display: inline-block;
+		margin: 10px;
+	}
+	#col2help, #col4help, #col6help {
+		text-align: left;
+		vertical-align: top;
+	}
+	#help li {
+		list-style: none;
+		text-decoration: none;
+	}
+	#col1help, #col3help, #col5help {
+		text-align: right;
+		vertical-align: top;
+	}
+
+	
+/* SETTING */
+	
+	#setting {
+		display : none;
+		text-align: center;
+		width: 80%;
+		max-width: 500px;
+	}
+	#block4, #block5, #block6 {
+		display: block;
+		margin: auto;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+	#block4 div, #block5 div, #block6 div {
+		display: inline-block;
+		margin: 2%;
+		height: 25px;
+		transition: 1s;
+		cursor: pointer;
+	}
+	
+
+/* QUOTES */
+
+	#quoteMessage {
+		display: none;
+		text-align: center;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left:0;
+		right:0;
+		margin: auto;
+		height: 50%;
+	}
+	#textQuote {
+		position: fixed;
+		bottom: 12.5%;
+		left: 50%;
+		transform: translate(-50%, 0%);
+		font-size: 30px;
+		letter-spacing: 40px;
+		opacity: .3;
+	}
+	#quoteDiv {
+		display: inline-block;
+		text-align: center;
+		width: 90%;
+		max-width: 600px;
+		letter-spacing: 1px;
+	}
+	#quoteDisplay {
+		position: absolute;
+		max-width: 600px;
+		margin: 0;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+	}
+	#quoteDisplay > span {  
+		display: inline-block;
+		line-height: 30px;
+		vertical-align: middle;
+	}
+	#quoteDisplayBack {
+		position: absolute;
+		max-width: 75%;
+		margin: 0;
+		top: 50%;
+		left: 12.5%;
+		transform: translate(0%,-50%);
+		text-align: center;
+		opacity: .1;
+		word-spacing: -5px;
+		line-height: 10px;
+	}
+	@media screen and (max-width: 1000px) {
+		#quoteDisplayBack {
+			display: none;
+		}
+	}
+
+
+/* SECOND PAGE */
+
+	#secondPage {
+		display: none;
+		text-align: center;
+		transition: 1s;
+	}
+
+
+/* TO-DO LIST */
+
+	#TODOmessage {
+		display: inline;
+		text-align: center;
+		font-size: 30px;
+		width: 50%;
+		margin-bottom: 10px;
+		cursor: default;
+	}
+	#TODOtextMessage, #TODOicoMessage {
+		display: inline-block;	
+	}
+	#TODOinputDiv {
+		display: inline-block;
+		width: 80%;
+		max-width: 300px;
+		height: 40px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		background-color: rgba(0,0,0,0.1);
+	}
+	#TODOinputBox {
+		width: 98%;
+		max-width: 180px;
+		height: 45px;
+		background-color: transparent;
+		border: none;
+		text-align: center;
+		outline: none;
+	}
+	#todolist > li{
+		padding-top: 6px;
+		padding-bottom: 6px;
+		margin: 3px;
+		max-width: 300px;
+		list-style: none;
+		text-align: center;
+		cursor: pointer;
+		transition: .2s;
+	}
+	#todolist > li:hover {
+		opacity: .5;
+	}
+	.done {
+		text-decoration: line-through;
+		transition: 0.2s;
+		opacity: 1;
+	}
+
+
+/* ICON */
+
+	@font-face {
+	  font-family: 'icomoon';
+	  src:  url('../fonts/icomoon.eot?yqqozy');
+	  src:  url('../fonts/icomoon.eot?yqqozy#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf?yqqozy') format('truetype'),
+		url('../fonts/icomoon.woff?yqqozy') format('woff'),
+		url('../fonts/icomoon.svg?yqqozy#icomoon') format('svg');
+	  font-weight: normal;
+	  font-style: normal;
+	}
+
+	.icon {
+	  /* use !important to prevent issues with browser extensions that change fonts */
+	  font-family: 'icomoon' !important;
+	  speak: none;
+	  font-style: normal;
+	  font-weight: normal;
+	  font-variant: normal;
+	  text-transform: none;
+	  line-height: 1;
+
+	  /* Better Font Rendering =========== */
+	  -webkit-font-smoothing: antialiased;
+	  -moz-osx-font-smoothing: grayscale;
+	}
+
+	.icon-todo1:before {
+	  content: "\e90e";
+	}
+	.icon-todo2:before {
+	  content: "\e90f";
+	}
+	.icon-ball1:before {
+	  content: "\e900";
+	}
+	.icon-ball2:before {
+	  content: "\e901";
+	}
+	.icon-computer1:before {
+	  content: "\e902";
+	}
+	.icon-computer2:before {
+	  content: "\e903";
+	}
+	.icon-facebook1:before {
+	  content: "\e904";
+	}
+	.icon-facebook2:before {
+	  content: "\e905";
+	}
+	.icon-other1:before {
+	  content: "\e906";
+	}
+	.icon-other2:before {
+	  content: "\e907";
+	}
+	.icon-school1:before {
+	  content: "\e908";
+	}
+	.icon-school2:before {
+	  content: "\e909";
+	}
+	.icon-search1:before {
+	  content: "\e90a";
+	}
+	.icon-search2:before {
+	  content: "\e90b";
+	}
+	.icon-warez1:before {
+	  content: "\e90c";
+	}
+	.icon-warez2:before {
+	  content: "\e90d";
+	}
+
+
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
