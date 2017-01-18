@@ -37,10 +37,14 @@ I had fun doing this and i'm happy with the result. Any comment is welcome.
 - Random quote appearing when hovering the clock (i really like this :) with a different style each time you do.
 - Extra link at the bottom hidden and shown with a click on the background
 - Custom background with opacity that make the content visible only when needed
+	
 	*custom background here is the view of Napoli, but you can create your own custom picture like a drawing on a chalkboard
 	here i did New York too: * [Backgrounds]
  
 if you want something just ask and i'll see what i can do.
+
+##### Screenshot:
+ - http://imgur.com/a/CkeDS
 
 
 
