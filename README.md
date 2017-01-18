@@ -1,14 +1,18 @@
 # ChalkHome-startpage
-Startpage with chalkboard theme
+Startpage with chalkboard theme 
+
 by areking
 
 Hi guys, this is my first time ever using html, css and javascript so be nice :D (expecially for the code, cause i like the result viewing, but i'm pretty sure that would be million better ways to do that)
+
 I wanted a new startpage and wanted to learn some html and js so it came out this, that has really a lot of useless stuffs, but it's for learning purpose.
+
 I had fun doing this and i'm happy with the result. Any comment is welcome.
 
 
 Credits:
 -All the styles and the images are from me
+
 -Lot of js code is from googling what i needed
 -Icons are from the web and i used icomoon to make them a font
 
