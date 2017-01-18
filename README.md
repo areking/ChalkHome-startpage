@@ -27,11 +27,13 @@ I had fun doing this and i'm happy with the result. Any comment is welcome.
 ##### Features:
 - Responsive design with pretty colors
 - Quick search through lot of sites (example typing '-r startpage' would make the search in reddit with the word startpage)
+	
 	*list of the commands is visible at '-?'.
+	
 	**lot of the links are in italian language so you should change them but i made it the easiest cause all the editable stuff is in just one file, so all these links have their own easy array.
+
 - Possibility to chose the settings, colors, fonts, backgrounds (use '-set')
-- To-do list that use localStorage to store data even after refreshing or closing the browsers 
-    *use '-todo' or click on the clock.
+- To-do list that use localStorage to store data even after refreshing or closing the browsers (use '-todo' or click on the clock)
 - Random quote appearing when hovering the clock (i really like this :) with a different style each time you do.
 - Extra link at the bottom hidden and shown with a click on the background
 - Custom background with opacity that make the content visible only when needed
