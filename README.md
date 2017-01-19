@@ -83,7 +83,7 @@ If you want to use this startpage, be sure to personalize the links in `variable
 All editable data is stored in some arrays, so you can easily change links, quick search commands, colors, bacgrounds and fonts.
 
 ## Screenshots
- - [Screenshots](http://imgur.com/gallery/CkeDS)
+ - [Screenshots](http://imgur.com/a/jr0N1)
  - [Custom Backgrounds](http://imgur.com/gallery/Gyeim)
 
 ## Credits
