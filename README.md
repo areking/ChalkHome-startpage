@@ -1,5 +1,7 @@
 # ChalkHome-startpage
 Startpage with chalkboard theme 
+by areking.
+
 
 # Launch
 
