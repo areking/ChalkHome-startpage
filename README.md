@@ -93,9 +93,11 @@ I had fun doing this and i'm happy with the result. Any comment is welcome.
 
 ## License
 
-Copyright (c) 2017 - areking 
+GNU GENERAL PUBLIC LICENSE
 
 You can do whatever you want with this. Enjoy!
+
+[ChalkHome startpage](https://redd.it/5oqz0b)
 
 
 
