@@ -1,8 +1,6 @@
 # ChalkHome-startpage
 
-Startpage with chalkboard theme 
-
-by areking.
+Startpage with chalkboard theme
 
 
 # Launch
@@ -96,6 +94,7 @@ I had fun doing this and i'm happy with the result. Any comment is welcome.
 ## License
 
 Copyright (c) 2017 - areking 
+
 You can do whatever you want with this. Enjoy!
 
 
