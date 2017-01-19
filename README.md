@@ -55,7 +55,8 @@ Most browsers will require you to use extensions to set a custom startpage as yo
 ## Credits
 
 This is just a fork of my main [ChalkHome startpage](https://redd.it/5oqz0b)
-Has way less features but a pretty responsive design
+
+This fork has way less features but a pretty responsive design
 
 ## License
 
