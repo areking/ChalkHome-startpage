@@ -64,7 +64,7 @@ GNU GENERAL PUBLIC LICENSE
 
 You can do whatever you want with this. Enjoy!
 
-[ChalkHome startpage minimal D10S](https://redd.it/5oqz0b)
+[ChalkHome startpage minimal D10S](https://redd.it/5oy1ai)
 
 
 
