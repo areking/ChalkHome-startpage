@@ -67,7 +67,7 @@
 		'I\'ve failed over and over again in my life and that is why i succeed',
 		'Life has 2 rules: never quit, and never forget rule #1',
 		'Every accomplishment starts with the decision to try.',
-		'There is no elevator to siccess. You have to take the stairs.',
+		'There is no elevator to success. You have to take the stairs.',
 		'I hated every minute of training, but i said "don\'t quit, suffer now and live the rest of your life as a champion"',
 		'If you are unwilling to risk the unusual, you will have to settle for the ordinary',
 		'Life is like a boxing match. Defeat is declared not when you fall, but when you refuse to stand again',
